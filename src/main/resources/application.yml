@@ -1,0 +1,11 @@
+spring.application.name=cineai
+spring:
+    datasource:
+    url:jdbc:postgresql://localhost:5432/cineai_db
+    username: postgres
+    password: postgres
+
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
